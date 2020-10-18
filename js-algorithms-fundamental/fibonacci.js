@@ -11,4 +11,10 @@ function fibonacci(n) {
   return result[n];
 }
 
-fibonacci(4);
+// Recursion - not a good solution
+function fib(n) {
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  return fib(n - 1) + fib(n - 2);
+}
