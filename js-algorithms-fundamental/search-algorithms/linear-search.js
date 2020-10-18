@@ -1,3 +1,5 @@
+// Goes through the array step by step until the value looking for is found. Linear search works on ordered and unordered lists and checks all items until it finds the element you're searching
+
 function linearSearch(arr, element) {
   let index = 0;
   for (let item of arr) {
@@ -41,5 +43,3 @@ const objects = [
 console.log(linearSearch(objects, { name: 'Mars', age: 3 }, function (el, it) {
   return el.name === it.name;
 }))
-
-// Linear search works on ordered and unordered lists and checks all items until it finds the element you're searching

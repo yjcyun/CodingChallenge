@@ -1,6 +1,6 @@
 // Binary search doens't work on unordered lists
 // Find median and compare it to the element you're trying to find
-// Is it the element you're looking for? If not, take the half in which must be inside
+// Is it the element you're looking for? If not, take the half and search again
 
 function findElement(sortedArr, element) {
   let startIndex = 0;
