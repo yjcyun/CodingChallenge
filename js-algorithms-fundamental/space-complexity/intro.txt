@@ -1,0 +1,15 @@
+/*
+How much space in memory does your alorithm occupy?
+
+- All values in JS are stored in memory
+- Especially arrays and objects can take up a bit more space
+
+- Find place where data(values) is stored "permanently" in the algorithm
+- Count how often such "permanently" stored values are being created and kept around
+- Determine how the number of values depends on the "n"
+- O(n), O(1), etc.
+
+- not the most important dimension
+
+*/
+
