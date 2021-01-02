@@ -1,0 +1,1 @@
+A set is a collection of values(objects, numbers) which forms an entity itself.

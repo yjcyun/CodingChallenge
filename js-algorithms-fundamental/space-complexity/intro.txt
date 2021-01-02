@@ -1,4 +1,3 @@
-/*
 How much space in memory does your alorithm occupy?
 
 - All values in JS are stored in memory
@@ -10,6 +9,3 @@ How much space in memory does your alorithm occupy?
 - O(n), O(1), etc.
 
 - not the most important dimension
-
-*/
-
